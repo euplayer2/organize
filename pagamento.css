@@ -1,0 +1,119 @@
+
+
+body {
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    
+   
+}
+.container {
+    max-width: 768px;
+    margin: 0 auto;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: relative;
+    z-index: 1;
+    
+}
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #2563eb;
+}
+ul {
+    margin-top: 16px;
+    display: flex;
+    border-bottom: 1px solid #d1d5db;
+    padding-left: 0;
+    list-style-type: none;
+}
+li {
+    margin-right: 16px;
+}
+a {
+    color: #000000;
+    text-decoration: none;
+    padding-bottom: 8px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 500;
+}
+a.active {
+    border-bottom: 2px solid #2563eb;
+}
+.form-container {
+    margin-top: 16px;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+input[type="text"] {
+    width: 100%;
+    padding-left: 2.5rem;
+    height: 2.5rem;
+    background-color: #f3f4f6;
+    border: none;
+    border-radius: 16px;
+    font-size: 0.875rem;
+    color: #4b5563;
+    outline: none;
+    transition: background-color 0.3s;
+}
+input[type="text"]:focus {
+    background-color: #e5e7eb;
+}
+svg {
+    position: absolute;
+    left: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9ca3af;
+    height: 24px;
+    width: 24px;
+}
+.tab-content {
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+    
+}
+.tab-content.active {
+    max-height: 1000px;
+    opacity: 1;
+    position: relative;
+    z-index: 2;
+   
+
+}
+.content-box {
+    background-color: #0C3972;
+    padding: 16px;
+    border-radius: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-top: 16px;
+    color: #CCCCCC;
+    transition: transform 0.3s ease, z-index 0s;
+    max-width: 100%;
+    height: auto;
+    
+
+}
+.content-box h2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #ffffff;
+}
+.content-box:hover {
+    transform: scale(1.02);
+    z-index: 3;
+}

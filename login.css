@@ -8,11 +8,6 @@ body {
     
 }
 
-img {
-    padding-top: 40px;
-    width: 300px;
-   
-}
 
 h2 {
     padding-top: 20px;
@@ -23,6 +18,26 @@ button {
     margin-top: 38px;
 }
 
+img {
+    width: 300px;
+   }
+
+   p {
+    text-align: left;
+   }
+
+.container {
+    padding-top: 40px;
+    width: 300px;
+    text-align: center;
+        
+}
+
+.container-img {
+    padding-top: 40px;
+    text-align: center;
+}
+
 .form-login {
     margin-top: 16px;
     position: relative;
@@ -30,11 +45,14 @@ button {
     align-items: center;
     max-width: 100%;
     height: auto;
+    text-align: center;
+    
     
 }
 input[type="text"] {
     
-    padding-left: 2.5rem;
+  padding-left: 25px; 
+  padding-right: 25px; 
     height: 2.5rem;
     background-color: #0C3972;
     border: none;
@@ -47,6 +65,7 @@ input[type="text"] {
 }
 input[type="text"]:focus {
     background-color: #e5e7eb;
+    
 }
 svg {
     position: absolute;
@@ -57,11 +76,14 @@ svg {
     height: 24px;
     width: 24px;
     
+    
 }
 
 input[type="password"] {
     
-    padding-left: 2.5rem;
+    padding-left: 25px; 
+    padding-right: 25px;
+    
     height: 2.5rem;
     background-color: #0C3972;
     border: none;
@@ -70,13 +92,13 @@ input[type="password"] {
     color: #4b5563;
     outline: none;
     transition: background-color 0.3s;
+    
 }
 input[type="password"]:focus {
     background-color: #e5e7eb;
 }
 svg {
     position: absolute;
-    left: 12px;
     top: 50%;
     transform: translateY(-50%);
     color: #9ca3af;
@@ -90,13 +112,42 @@ svg {
     padding: 16px;
     background-color: #ffffff;
     border-radius: 16px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
     position: relative;
     z-index: 1;
+    
     
 }
 .centered-container {
     display: flex;
     justify-content: center;
-    align-items: center;
+   
+    
 }
+
+.botao1 {
+    
+    margin-top: 40px;
+    display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #0C3972;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+}
+
+
+.botao2 {
+    margin-top: 40px;
+    display: inline-block;
+        padding: 10px 20px;
+        font-size: 16px;
+        color: white;
+        background-color: #9ca3af;
+        text-decoration: none;
+        border-radius: 5px;
+        text-align: center;
+}
+

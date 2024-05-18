@@ -15,9 +15,6 @@ h3 {
     color: #9ca3af;
 }
 
-button {
-    margin-top: 38px;
-}
 
 img {
     width: 230px;
@@ -130,6 +127,7 @@ svg {
 .botao1 {
     
     margin-top: 70px;
+    margin-right: 8px;
     display: inline-block;
         padding: 10px 20px;
         font-size: 16px;
@@ -142,6 +140,7 @@ svg {
 
 
 .botao2 {
+    margin-left: 8px;
     margin-top: 70px;
     display: inline-block;
         padding: 10px 20px;

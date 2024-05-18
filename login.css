@@ -9,9 +9,10 @@ body {
 }
 
 
-h2 {
+h3 {
     padding-top: 20px;
     padding-bottom: 30px;
+    color: #9ca3af;
 }
 
 button {
@@ -39,7 +40,8 @@ img {
 }
 
 .form-login {
-    margin-top: 16px;
+    margin-top: -6px;
+    margin-bottom: 28px;
     position: relative;
     display: flex;
     align-items: center;
@@ -127,7 +129,7 @@ svg {
 
 .botao1 {
     
-    margin-top: 40px;
+    margin-top: 70px;
     display: inline-block;
         padding: 10px 20px;
         font-size: 16px;
@@ -140,7 +142,7 @@ svg {
 
 
 .botao2 {
-    margin-top: 40px;
+    margin-top: 70px;
     display: inline-block;
         padding: 10px 20px;
         font-size: 16px;

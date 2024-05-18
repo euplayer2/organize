@@ -50,8 +50,8 @@ img {
 }
 input[type="text"] {
     
-    padding-left: 45px; 
-    padding-right: 45px;
+    padding-left: 30px; 
+    padding-right: 30px;
     height: 2.5rem;
     background-color: #0C3972;
     border: none;
@@ -80,11 +80,11 @@ svg {
 
 input[type="password"] {
     
-    padding-left: 45px; 
-    padding-right: 45px;
+    padding-left: 30px; 
+    padding-right: 30px;
     
     height: 2.5rem;
-    background-color: #ff4800;
+    background-color: #0C3972;
     border: none;
     border-radius: 16px;
     font-size: 0.875rem;

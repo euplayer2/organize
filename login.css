@@ -23,7 +23,9 @@ img {
 
    p {
     text-align: left;
+  
    }
+
 
 .container {
     padding-top: 40px;
@@ -46,6 +48,7 @@ img {
     max-width: 100%;
     height: auto;
     text-align: center;
+   text-decoration-color: aliceblue;
     
     
 }
@@ -65,7 +68,7 @@ input[type="text"] {
 }
 input[type="text"]:focus {
     background-color: #e5e7eb;
-    
+    color: #9ca3af;
 }
 svg {
     position: absolute;
@@ -89,13 +92,14 @@ input[type="password"] {
     border: none;
     border-radius: 16px;
     font-size: 0.875rem;
-    color: #4b5563;
+    color: #ffffff;
     outline: none;
     transition: background-color 0.3s;
     
 }
 input[type="password"]:focus {
     background-color: #e5e7eb;
+    color: #9ca3af;
 }
 svg {
     position: absolute;

@@ -7,7 +7,7 @@
 }
 
 .bloco {
-    background-color: #e700d4;
+    background-color: #834df8;
     height: 133px;
     border-radius: 10px;
     display: flex;
@@ -18,4 +18,5 @@
 
 h1 {
     margin-left: 30px;
+    margin-bottom: 60px;
 }

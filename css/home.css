@@ -1,14 +1,14 @@
 .blocos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px 40px; /* Define espaçamento vertical e horizontal */
-    max-width: 297px; /* Ajuste conforme necessário */
+    gap: 15px 40px;
+    max-width: 293px;
     margin: auto; 
 }
 
 .bloco {
     background-color: #0C3972;
-    height: 133px;
+    height: 129px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@
 
 h1 {
     margin-left: 30px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 
 .barra-navegação {
@@ -27,22 +27,23 @@ h1 {
     left: 0;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: white;
     padding: 10px 0;
-    border-top: 1px solid black; /* Adiciona uma linha preta no topo da barra */
+    border-top: 1px solid black; 
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
 .nav-item {
-    color: black; /* Define a cor do texto como preta */
+    color: black; 
     text-decoration: none;
     font-size: 16px;
     text-align: center;
-    flex-grow: 1;
+    padding: 0 30px; 
+    flex-grow: 0; 
 }
 
 .nav-item:hover {
-    background-color: #ddd; /* Altera a cor de fundo do item quando o cursor do mouse passa sobre ele */
+    background-color: #ddd; 
 }

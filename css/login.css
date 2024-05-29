@@ -1,4 +1,4 @@
-
+@import url(checkbox.css);
 
 body {
     background-color: #ffffff;
@@ -156,4 +156,3 @@ svg {
         border-radius: 5px;
         text-align: center;
 }
-

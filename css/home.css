@@ -1,0 +1,21 @@
+.blocos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 60px; /* Define espaçamento vertical e horizontal */
+    max-width: 320px; /* Ajuste conforme necessário */
+    margin: auto; 
+}
+
+.bloco {
+    background-color: #0C3972;
+    height: 144px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin-left: 30px;
+}

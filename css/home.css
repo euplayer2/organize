@@ -7,7 +7,7 @@
 }
 
 .bloco {
-    background-color: #834df8;
+    background-color: #0C3972;
     height: 133px;
     border-radius: 10px;
     display: flex;
@@ -19,4 +19,30 @@
 h1 {
     margin-left: 30px;
     margin-bottom: 60px;
+}
+
+.barra-navegação {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding: 10px 0;
+    border-top: 1px solid black; /* Adiciona uma linha preta no topo da barra */
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.nav-item {
+    color: black; /* Define a cor do texto como preta */
+    text-decoration: none;
+    font-size: 16px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.nav-item:hover {
+    background-color: #ddd; /* Altera a cor de fundo do item quando o cursor do mouse passa sobre ele */
 }

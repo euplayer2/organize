@@ -1,13 +1,13 @@
 .blocos {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px 60px; /* Define espaçamento vertical e horizontal */
+    gap: 30px 40px; /* Define espaçamento vertical e horizontal */
     max-width: 320px; /* Ajuste conforme necessário */
     margin: auto; 
 }
 
 .bloco {
-    background-color: #0C3972;
+    background-color: #0ed165;
     height: 144px;
     border-radius: 10px;
     display: flex;

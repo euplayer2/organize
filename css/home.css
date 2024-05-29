@@ -2,13 +2,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px 40px; /* Define espaçamento vertical e horizontal */
-    max-width: 256px; /* Ajuste conforme necessário */
+    max-width: 297px; /* Ajuste conforme necessário */
     margin: auto; 
 }
 
 .bloco {
-    background-color: #a2ff00;
-    height: 115px;
+    background-color: #e700d4;
+    height: 133px;
     border-radius: 10px;
     display: flex;
     justify-content: center;
